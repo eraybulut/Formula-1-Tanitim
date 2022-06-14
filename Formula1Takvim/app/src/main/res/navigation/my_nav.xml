@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homePageFragment">
+
+    <fragment
+        android:id="@+id/homePageFragment"
+        android:name="com.eray.formula1takvim.HomePageFragment"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePageFragment_to_driverFragment"
+            app:destination="@id/driverFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/driverFragment"
+        android:name="com.eray.formula1takvim.DriverFragment"
+        android:label="fragment_driver"
+        tools:layout="@layout/fragment_driver" >
+        <action
+            android:id="@+id/action_driverFragment_to_pistFragment2"
+            app:destination="@id/pistFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/pistFragment2"
+        android:name="com.eray.formula1takvim.PistFragment"
+        android:label="fragment_pist"
+        tools:layout="@layout/fragment_pist" >
+        <action
+            android:id="@+id/action_pistFragment2_to_tarihFragment"
+            app:destination="@id/tarihFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tarihFragment"
+        android:name="com.eray.formula1takvim.TarihFragment"
+        android:label="fragment_tarih"
+        tools:layout="@layout/fragment_tarih" />
+    <fragment
+        android:id="@+id/sennaFragment"
+        android:name="com.eray.formula1takvim.SennaFragment"
+        android:label="fragment_senna"
+        tools:layout="@layout/fragment_senna" />
+    <fragment
+        android:id="@+id/michealFragment"
+        android:name="com.eray.formula1takvim.MichealFragment"
+        android:label="fragment_micheal"
+        tools:layout="@layout/fragment_micheal" />
+    <fragment
+        android:id="@+id/huntFragment"
+        android:name="com.eray.formula1takvim.HuntFragment"
+        android:label="fragment_hunt"
+        tools:layout="@layout/fragment_hunt" />
+    <fragment
+        android:id="@+id/fotoFragment"
+        android:name="com.eray.formula1takvim.FotoFragment"
+        android:label="fragment_foto"
+        tools:layout="@layout/fragment_foto" />
+</navigation>

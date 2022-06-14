@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homePageFragment"
+            android:icon="@drawable/f1"
+            android:title="Ana Sayfa" />
+        <item
+            android:id="@+id/driverFragment"
+            android:icon="@drawable/motorbike"
+            android:title="Sürücüler" />
+        <item
+            android:id="@+id/pistFragment2"
+            android:icon="@drawable/circuit"
+            android:title="Pist" />
+        <item
+            android:id="@+id/tarihFragment"
+            android:icon="@drawable/calendar"
+            android:title="Yarış Takvimi" />
+        <item
+            android:id="@+id/fotoFragment"
+            android:icon="@drawable/camera"
+            android:title="Foto Galeri" />
+    </group>
+
+
+    <item android:title="Efsaneler">
+        <menu >
+            <item
+                android:id="@+id/sennaFragment"
+                android:icon="@drawable/trophy"
+                android:title="Ayrton Senna" />
+            <item
+                android:id="@+id/huntFragment"
+                android:icon="@drawable/trophy"
+                android:title="James Hunt" />
+            <item
+                android:id="@+id/michealFragment"
+                android:icon="@drawable/trophy"
+                android:title="Michael Schumacher" />
+        </menu>
+    </item>
+
+
+
+</menu>

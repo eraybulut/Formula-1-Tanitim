@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homePageFragment"
+        android:icon="@drawable/f1"
+        android:title="AnaSayfa" />
+    <item
+        android:id="@+id/driverFragment"
+        android:icon="@drawable/motorbike"
+        android:title="Sürücüler" />
+    <item
+        android:id="@+id/pistFragment2"
+        android:icon="@drawable/circuit"
+        android:title="Pistler" />
+    <item
+        android:id="@+id/tarihFragment"
+        android:icon="@drawable/calendar"
+        android:title="Takvim" />
+</menu>

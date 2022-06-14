@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="366dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/f1_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="367dp"
+        android:layout_height="404dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/oxygenlight"
+        android:text="Formula 1 (Formula Bir veya F1 olarak da bilinir); tek kişilik, açık tekerlekli otomobil yarışlarının en yüksek düzeyini oluşturan yarışlar dizisidir.  F1; bir yıl boyunca, her birine Grand Prix adı verilen ve değişik ülkelerde özel yollarda koşulan yarışlardan oluşur. Yıl sonunda toplanan puanlara göre Pilotlar Şampiyonluğu ile Takımlar Şampiyonası (Otomobil Yapımcıları Birinciliği) ödülleri verilir.  Yarışları Mohammed bin Sulayem'in başkanlığını yaptığı FIA (Uluslararası Otomobil Federasyonu) düzenler. F1'in geçmişinde yarışların çoğunluğu Avrupa'da yapılmış olmasına karşın, son yıllarda artan sayıda yarışlar Avrupa dışına kaydırılmaktadır. Bunda ana neden, FIA'nın gelişen yeni pazarlara açılmak istemesi olsa da, yasal düzenlemelerin AB ülkelerindeki kadar sıkı olmadığı ülkelerin çekiciliği de bu kararda etkin olmuştur. Son yıllarda AB'deki yarışlarda, sağlık gerekçeleriyle tütün ürünlerinin tanıtımlarının yasaklanması, ölümle sonuçlanan bazı kazaların yerel savcılıklarca (takımların savsaması sonucu olup olmadığının) soruşturulması, FIA'ca hoş karşılanmamıştır. Dünyanın en çok izlenen spor dallarındandır. 2010 yılında dünya çapında 527 milyon televizyon izleyicisine ulaşmıştır"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/oxygenbold"
+        android:text="Formula  1 Nedir ?"
+        android:textColor="@color/themeColor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

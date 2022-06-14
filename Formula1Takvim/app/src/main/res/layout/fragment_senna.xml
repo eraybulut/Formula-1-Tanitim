@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SennaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Ayrton SENNA"
+        android:fontFamily="@font/oxygenbold"
+        android:textColor="@color/themeColor"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/senna"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="365dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="8dp"
+        android:text="Senna, F1 kariyeri boyunca Toleman, Lotus, McLaren, ve Williams takımlarında yer aldı. Birden fazla takımda yer almasına rağmen Senna’nın şampiyonluğu tadabildiği tek takım, McLaren oldu. Başarılı yarış pilotu, ilk dünya şampiyonluğunu 1988, ikincisini 1990 ve sonuncusunu ise 1991 yılında aldı.Zaman geçtikçe Senna’nın başarısı, diğer pilotlar tarafından da övgü ve takdirler almaya başladı. Bir dönem McLaren için yarışan başarılı pilot John Watson, kendi yazdığı bir kitabında Senna için şu ifadeleri kullandı;  “Yarış arabasında hem görsel hem de işitsel olarak daha önce hiç karşılaşmadığım bir şeyle karşılaşmıştım. O kadar yetenekliydi ki aracı sanki 4 ayağı ve 4 kolu varmış gibi becerikli bir şekilde kullanıyordu. Bir anda frene basıyor, vitesi değiştiriyor, gazı köklüyordu ve yarış aracını keskin bir bıçak gibi tehlikeli, ancak bir o kadar da kontrollü kullanıyordu.” "
+        android:textColor="#000000"
+        android:fontFamily="@font/oxygenlight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>
