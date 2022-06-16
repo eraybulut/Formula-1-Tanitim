@@ -4,6 +4,7 @@
 Motorsporlarının en önemlilerinden olan Formula 1 hakkında başlangıç rehberi olarak hazırladığım uygulama.
 <br/><br/>
 
+  
 ### Uygulama İçerigi 
 #### ⋅⋅⋅F1 Nedir ?
 #### ⋅⋅⋅Sürücüler
@@ -20,17 +21,9 @@ Motorsporlarının en önemlilerinden olan Formula 1 hakkında başlangıç rehb
 
 ![anasayfa](img/img1.png)
 
-
 ### Navigation Drawer Menu
-
-![anasayfa](img/img2.png)
-
-
+![drawer](img/img2.png)
 ### Sürücüler Sayfası
-
-![anasayfa](img/img3.png)
-
-
+![suruculer](img/img3.png)
 ### Pistler Sayfası
-
-![anasayfa](img/img4.png)
+![pistler](img/img4.png)
