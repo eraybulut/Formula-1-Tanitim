@@ -1,20 +1,23 @@
-# Formula 1 Başlangıç Rehberi
+# ***Formula 1 Başlangıç Rehberi***
 
 
 Motorsporlarının en önemlilerinden olan Formula 1 hakkında başlangıç rehberi olarak hazırladığım uygulama.
 <br/><br/>
 
   
-### Uygulama İçerigi 
-#### ⋅⋅⋅F1 Nedir ?
-#### ⋅⋅⋅Sürücüler
-#### ⋅⋅⋅Pistler
-#### ⋅⋅⋅Yarış Takvimi
-#### ⋅⋅⋅Foto Galeri 
-#### ⋅⋅⋅Efsaneler Köşeşi 
+### ***Uygulama İçerigi*** 
+- F1 Nedir ?
+- Sürücüler
+- Pistler
+- Yarış Takvimi
+- Foto Galeri 
+- Efsaneler Köşeşi 
+
+### ***Kullanılan Teknolojiler*** 
+- Java
 
 <br/><br/>
-## Ekran Görüntüleri 
+## ***Ekran Görüntüleri*** 
 <br/>
 
 ### AnaSayfa Formula 1 Nedir?
