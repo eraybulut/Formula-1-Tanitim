@@ -1,7 +1,7 @@
 # ***Formula 1 Başlangıç Rehberi***
 
 
-Motorsporlarının en önemlilerinden olan Formula 1 hakkında başlangıç rehberi olarak hazırladığım uygulama.
+Motorsporlarının en önemlilerinden olan Formula 1 hakkında başlangıç rehberi olarak hazırladığım android uygulaması.
 <br/><br/>
 
   
